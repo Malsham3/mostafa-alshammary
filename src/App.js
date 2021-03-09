@@ -1,10 +1,11 @@
-import './App.css';
-import 'bootstrap/dist/css/bootstrap.min.css';
+import "./App.css";
+import "bootstrap/dist/css/bootstrap.min.css";
+import HomePage from './pages/HomePage'
 
 function App() {
   return (
     <div className="App">
-Hello, This website is currently under development.
+      <HomePage/>
     </div>
   );
 }
