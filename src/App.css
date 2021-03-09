@@ -24,7 +24,7 @@ h1 {
   font-family: Futura, "Trebuchet MS", Arial, sans-serif;
   color: black;
   font-size: 85px;
-  margin-top: 1.5%;
+  margin-top: 1%;
   text-align: center;
 }
 
@@ -44,7 +44,7 @@ a, a:hover {
 }
 
 #nav-ul:hover #nav-item {
-  filter: blur(3px);
+  filter: blur(2px);
   opacity: 0.5;
   transform: scale(0.98);
 }
