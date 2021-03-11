@@ -7,11 +7,11 @@
   background-size: cover;
 }
 
-#home-page {
+#header {
   background-color: whitesmoke;
+  margin-top: 1%;
   margin-left: 10%;
   margin-right: 10%;
-  padding-bottom: 3px;
   text-align: center;
   box-shadow: 6px 6px 1px 1px black;
 }
@@ -19,8 +19,6 @@
 h1 {
   font-family: Futura, "Trebuchet MS", Arial, sans-serif;
   color: black;
-  font-size: 85px;
-  margin-top: 1%;
   text-align: center;
 }
 
@@ -28,6 +26,10 @@ h1 {
 #nav-ul > #nav-item {
   font-family: Futura, "Trebuchet MS", Arial, sans-serif;
   display: inline-block;
+}
+
+#nav-ul {
+  padding-bottom: 5px;
 }
 
 #nav-item {
@@ -57,9 +59,9 @@ a:hover {
 
 /* Start of glitchy header */
 .sub {
+  font-family: Futura, "Trebuchet MS", Arial, sans-serif;
   font-size: 24px;
-  font-weight: bold;
-	color: rgb(100,220,220);
+	color: rgb(83, 207, 207);
   // color: gray;
 	letter-spacing: 16px;
 }
@@ -76,10 +78,10 @@ a:hover {
 .glitch {
 position: relative;
 color: black;
-font-size: 4em;
+font-size: 4.2em;
 /* Animation provies a slight random skew. Check bottom of doc
 for more information on how to random skew. */
-animation: glitch-skew 1s infinite linear alternate-reverse;
+animation: glitch-skew 30s infinite linear alternate-reverse;
 
 // Creates a copy before our text. 
 &::before{
@@ -92,11 +94,13 @@ animation: glitch-skew 1s infinite linear alternate-reverse;
   /* Creates an initial clip for our glitch. This works in
   a typical top,right,bottom,left fashion and creates a mask
   to only show a certain part of the glitch at a time. */
-  clip: rect(44px, 450px, 56px, 0);
+  clip: rect(44px, 250px, 25px, 0);
   /* Runs our glitch-anim defined below to run in a 5s loop, infinitely,
   with an alternating animation to keep things fresh. */
   animation: glitch-anim 5s infinite linear alternate-reverse;
 }
+
+
 
 // Creates a copy after our text. Note comments from ::before.
 &::after {
@@ -107,7 +111,7 @@ animation: glitch-skew 1s infinite linear alternate-reverse;
 }
 }
 
-/* Creates an animation with 20 steaps. For each step, it calculates 
+/* Creates an animation with 20 steps. For each step, it calculates 
 a percentage for the specific step. It then generates a random clip
 box to be used for the random glitch effect. Also adds a very subtle
 skew to change the 'thickness' of the glitch.*/
