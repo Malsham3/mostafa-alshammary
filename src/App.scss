@@ -145,4 +145,31 @@ $steps: 10;
   }
 }
 }
-/* End of glitchy header */
+// End of glitchy header
+
+
+// profile picture 
+img{
+  width: 400px;
+  height: 400px;
+  box-shadow: 6px 6px 1px 1px black;
+}
+
+//mid content
+#mid-content{
+  font-family: Futura, "Trebuchet MS", Arial, sans-serif;
+  margin-top: 40px;
+}
+
+// bio section
+#bio{
+  background-color: whitesmoke;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 20px;
+}
+
+#available {
+  font-style: italic;
+  text-decoration: underline;
+}

@@ -1,9 +1,10 @@
 import React from 'react'
 import {Image} from 'react-bootstrap'
+import ProfilePic from '../utils/images/profile-pic.jpg'
 
 function ProfilePicture() {
     return (
-        <Image src="holder.js/171x180" thumbnail />
+        <Image src={ProfilePic} />
     )
 }
 
