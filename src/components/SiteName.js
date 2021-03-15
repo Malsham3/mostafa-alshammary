@@ -1,6 +1,6 @@
 import React from "react";
 
-function FooGlitch() {
+function SiteName() {
   return (
       <div id="wrapper">
         <h1
@@ -14,4 +14,4 @@ function FooGlitch() {
   );
 }
 
-export default FooGlitch;
+export default SiteName;

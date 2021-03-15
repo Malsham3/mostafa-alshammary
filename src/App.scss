@@ -10,8 +10,8 @@
 #header {
   background-color: whitesmoke;
   margin-top: 1%;
-  margin-left: 10%;
-  margin-right: 10%;
+  margin-left: 8%;
+  margin-right: 8%;
   text-align: center;
   box-shadow: 6px 6px 1px 1px black;
 }
@@ -78,7 +78,7 @@ a:hover {
 .glitch {
 position: relative;
 color: black;
-font-size: 4.2em;
+font-size: 4.4em;
 /* Animation provies a slight random skew. Check bottom of doc
 for more information on how to random skew. */
 animation: glitch-skew 30s infinite linear alternate-reverse;
@@ -158,18 +158,25 @@ img{
 //mid content
 #mid-content{
   font-family: Futura, "Trebuchet MS", Arial, sans-serif;
+  margin-left: 8%;
+  margin-right: 8%;
   margin-top: 40px;
 }
 
 // bio section
 #bio{
   background-color: whitesmoke;
+  box-shadow: 6px 6px 1px 1px black;
   padding-top: 10px;
   padding-bottom: 10px;
-  padding-left: 20px;
+  padding-left: 30px;
+  // padding-right: 150px;
+  padding-right: 15%;
+  font-size: 20px;
 }
 
 #available {
+  font-size: 20px;
   font-style: italic;
   text-decoration: underline;
 }
