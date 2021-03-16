@@ -4,7 +4,8 @@ $redColor: rgba(244, 67, 54, 1);
 $blueColor: rgba(33, 150, 243, 1);
 
 h2{
-    font-weight: bold;
+    // font-weight: bold;
+    font-size: 40px;
 }
 
 #socialmedia {
@@ -13,8 +14,8 @@ h2{
 
 .icon-3d {
   margin: 10px;
-  -webkit-animation: icon3d 200ms 10;
-  animation: icon3d 200ms 10;
+  -webkit-animation: icon3d 200ms 4;
+  animation: icon3d 200ms 4;
   color: black;
   &:hover {
     -webkit-animation: icon3d 200ms infinite;

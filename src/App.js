@@ -11,7 +11,6 @@ function App() {
 <BrowserRouter>
 <Route exact path="/" component={HomePage} />
 <Route exact path="/contactme" component={ContactPage} />
-{/* <Route exact path="/works" component={Work} /> */}
 </BrowserRouter> 
 
   );
