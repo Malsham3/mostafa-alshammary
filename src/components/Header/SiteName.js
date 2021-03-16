@@ -9,7 +9,7 @@ function SiteName() {
         >
           MOSTAFA ALSHAMMARY
         </h1>
-        <span class="sub">Full Stack Developer</span>
+        <h3 class="sub">Full Stack Developer</h3>
       </div>
   );
 }

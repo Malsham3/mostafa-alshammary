@@ -15,7 +15,6 @@ function Bio() {
             <p> I'm a car enthusiast, fitness and health fanatic, traveler and more. Fueld by high energy and passion. A quick learner, who's able to pick up new skills and take on different projects with relative ease. I strive to design and build immersive and user-centric web applications through well crafted code. I also enjoy finding bugs and fixing broken code.</p>
 
             <p id="available">Available to work.</p>
-            {/* <SocialMedia/> */}
         </div>
     )
 }

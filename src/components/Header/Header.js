@@ -1,14 +1,13 @@
 import React from 'react'
-import Foo from "../components/Foo";
 import SiteName from "./SiteName"
-import NavSection from "../components/NavSection";
-import ContactCard from "../components/ContactCard";
-import ProfilePicture from "../components/ProfilePicture";
+import NavSection from "./NavSection";
+import ContactCard from "../ContactCard";
+import ProfilePicture from "../ProfilePicture";
+import './index.scss'
 
 function Header() {
     return (
         <div id="header">
-            {/* <Foo/> */}
             <SiteName/>
             <NavSection/>
             <ContactCard/>
