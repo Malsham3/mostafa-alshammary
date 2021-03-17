@@ -1,17 +1,16 @@
 import React from 'react'
+import "./index.scss"
 import SocialMedia from '../SocialMedia/SocialMedia'
 
 function ContactMe() {
     return (
         <div id = "bio">
-            <h2>Contact Me</h2>
-            <br/>
-
-            <p>By Phone: (623) 363 - 5283</p>
-
-            <p> By Email: <a href="mailto:m.alsham627@gmail.com">m.alsham627@gmail.com</a></p>
-
-            <br/>
+            <h2 id="contact-me">Contact</h2>
+            {/* <br/> */}
+            <div id= "contact-info">
+            <h4 id="contact">By Phone: (623) 363 - 5283</h4>
+            <h4 id="contact"> By Email: <a href="mailto:m.alsham627@gmail.com">m.alsham627@gmail.com</a></h4>
+            </div>
 
             <SocialMedia/>
         </div>
