@@ -12,7 +12,7 @@ function Bio() {
 
             <p id="first-p">I’m Mostafa, a self-motivated Full Stack Web Developer. I recently graduated from University of Arizona Coding Bootcamp with a certificate in Full Stack Web Development. During that intensive bootcamp I was successfully able to develop various technical skills in Web Development. Now I am working part-time on my own projects and seeking an opportunity to expand my career in this line of work full-time.</p>
 
-            <p> I'm a car enthusiast, fitness and health fanatic, traveler and more. Fueld by high energy and passion. A quick learner, who's able to pick up new skills and take on different projects with relative ease. I strive to design and build immersive and user-centric web applications through well crafted code. I also enjoy finding bugs and fixing broken code.</p>
+            <p id="second-p"> I'm a car enthusiast, fitness and health fanatic, traveler and more. Fueld by high energy and passion. A quick learner, who's able to pick up new skills and take on different projects with relative ease. I strive to design and build immersive and user-centric web applications through well crafted code. I also enjoy finding bugs and fixing broken code.</p>
 
             <p id="available">Available to work.</p>
         </div>

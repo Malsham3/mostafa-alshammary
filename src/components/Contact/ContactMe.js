@@ -6,7 +6,6 @@ function ContactMe() {
     return (
         <div id = "bio">
             <h2 id="contact-me">Contact</h2>
-            {/* <br/> */}
             <div id= "contact-info">
             <h4 id="contact">By Phone: (623) 363 - 5283</h4>
             <h4 id="contact"> By Email: <a href="mailto:m.alsham627@gmail.com">m.alsham627@gmail.com</a></h4>

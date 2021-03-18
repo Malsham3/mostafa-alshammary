@@ -7,6 +7,10 @@
   background-size: cover;
 }
 
+h2{
+  font-size: 3.1vw;
+}
+
 // profile picture
 img {
   width: 400px;
@@ -26,15 +30,19 @@ img {
   background-color: whitesmoke;
   box-shadow: 6px 6px 1px 1px black;
   //top right bottom left
-  padding: 10px 12% 30px 30px;
-  font-size: 20px;
+  padding: 4% 9% 10px 6%;
 }
 
 #first-p {
-  font-size: 24px;
+  font-size: 2.15vw;
+}
+
+#second-p {
+  font-size: 1.95vw;
 }
 
 #available {
   font-style: italic;
+  font-size: 1.9vw;
   text-decoration: underline;
 }
