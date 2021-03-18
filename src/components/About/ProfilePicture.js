@@ -1,6 +1,6 @@
 import React from 'react'
 import {Image} from 'react-bootstrap'
-import ProfilePic from '../utils/images/profile-pic.jpg'
+import ProfilePic from '../../utils/images/profile-pic.jpg'
 
 function ProfilePicture() {
     return (

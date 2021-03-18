@@ -1,8 +1,7 @@
 import React from 'react'
 import SiteName from "./SiteName"
 import NavSection from "./NavSection";
-import ContactCard from "../ContactCard";
-import ProfilePicture from "../ProfilePicture";
+import ProfilePicture from "../About/ProfilePicture";
 import './index.scss'
 
 function Header() {
@@ -10,7 +9,6 @@ function Header() {
         <div id="header">
             <SiteName/>
             <NavSection/>
-            <ContactCard/>
         </div>
     )
 }

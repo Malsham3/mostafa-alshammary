@@ -1,7 +1,6 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import ProfilePicture from "../components/ProfilePicture";
-import Bio from "../components/Bio";
+import Bio from "./Bio";
 
 function MidContent() {
   return (
