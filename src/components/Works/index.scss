@@ -1,0 +1,16 @@
+#works-ul {
+    list-style: circle;
+  background-color: whitesmoke;
+  box-shadow: 6px 6px 1px 1px black;
+  //top right bottom left
+  padding: 4% 9% 4% 6%;
+}
+
+#project-item{
+    padding: 1vh 0 1vh 0
+}
+
+// in app.scss
+// #project-name{
+//     font-size: 2vw;
+// }

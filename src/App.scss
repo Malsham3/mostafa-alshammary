@@ -8,7 +8,7 @@
 }
 
 h2{
-  font-size: 3.1vw;
+  font-size: 3.2vw;
 }
 
 // profile picture
@@ -26,19 +26,19 @@ img {
 }
 
 // bio section
-#bio, #works {
+#bio {
   background-color: whitesmoke;
   box-shadow: 6px 6px 1px 1px black;
   //top right bottom left
-  padding: 4% 9% 10px 6%;
+  padding: 4% 9% 4% 6%;
 }
 
-#first-p {
-  font-size: 2.15vw;
+#first-p, #project-name {
+  font-size: 2vw;
 }
 
 #second-p {
-  font-size: 1.95vw;
+  font-size: 1.8vw;
 }
 
 #available {

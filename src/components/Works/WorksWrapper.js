@@ -1,13 +1,14 @@
 import React from 'react'
 import Header from '../Header/Header'
-import Works from './Works'
+import Projects from './Projects'
+import './index.scss'
 
 function WorksWrapper() {
     return (
         <>
         <Header/>
         <div id="mid-content">
-            <Works/>
+            <Projects/>
         </div>
         </>
     )
