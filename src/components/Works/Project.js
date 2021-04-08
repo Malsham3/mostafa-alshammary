@@ -1,9 +1,11 @@
 import React from "react";
 
-function Project({ projectname, github, deployed }) {
+function Project({ id, projectname, github, deployed, showProject }) {
+
+
   return (
     <li id="project-item">
-      <a id="project-name" target= "_blank" href={github}>
+      <a class="project-name" id={id} href={"works/"+ id}>
         {projectname}
       </a>
     </li>

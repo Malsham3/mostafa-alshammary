@@ -7,6 +7,10 @@
   background-size: cover;
 }
 
+#findme{
+  font-size: 200px;
+}
+
 h2{
   font-size: 3.2vw;
 }
@@ -20,9 +24,10 @@ img {
 
 //mid content
 #mid-content {
-  margin-left: 8%;
-  margin-right: 8%;
-  margin-top: 40px;
+  // margin-left: 8%;
+  // margin-right: 8%;
+  // margin-top: 40px;
+  margin: 4vh 8% 3% 8%;
 }
 
 // bio section
@@ -30,10 +35,10 @@ img {
   background-color: whitesmoke;
   box-shadow: 6px 6px 1px 1px black;
   //top right bottom left
-  padding: 4% 9% 4% 6%;
+  padding: 4% 9% 2% 6%;
 }
 
-#first-p, #project-name {
+#first-p, .project-name {
   font-size: 2vw;
 }
 

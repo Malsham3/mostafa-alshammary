@@ -5,8 +5,8 @@ import Home from '../components/Home/Home'
 function HomePage() {
   return (
     <>
-      <Home />
-      {/* <Header /> */}
+      {/* <Home /> */}
+      <Header />
     </>
   );
 }
