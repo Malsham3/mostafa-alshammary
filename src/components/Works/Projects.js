@@ -5,34 +5,28 @@ import Project from "./Project";
 const projects = [
   {
     id: "1",
-    projectname: "Project 1",
+    projectname: "Employee Tracker",
     github: "",
     deployed: "",
   },
   {
     id: "2",
-    projectname: "Project 2",
+    projectname: "Office Space",
     github: "",
     deployed: "",
   },
   {
     id: "3",
-    projectname: "Project 3",
+    projectname: "Budget Tracker",
     github: "",
     deployed: "",
   },
   {
     id: "4",
-    projectname: "Project 4",
+    projectname: "Workout Tracker",
     github: "",
     deployed: "",
-  },
-  {
-    id: "5",
-    projectname: "Project 5",
-    github: "",
-    deployed: "",
-  },
+  }
 ];
 
 function Projects() {

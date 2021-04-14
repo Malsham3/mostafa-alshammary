@@ -7,26 +7,17 @@
   background-size: cover;
 }
 
-#findme{
+#findme {
   font-size: 200px;
 }
 
-h2{
-  font-size: 3.2vw;
-}
-
-// profile picture
-img {
-  width: 400px;
-  height: 400px;
-  box-shadow: 6px 6px 1px 1px black;
+h2 {
+  font-size: 2.8vw;
+  text-decoration: underline;
 }
 
 //mid content
 #mid-content {
-  // margin-left: 8%;
-  // margin-right: 8%;
-  // margin-top: 40px;
   margin: 4vh 8% 3% 8%;
 }
 
@@ -38,12 +29,19 @@ img {
   padding: 4% 9% 2% 6%;
 }
 
-#first-p, .project-name {
-  font-size: 2vw;
+#first-p,
+.project-name {
+  font-size: 1.6vw;
 }
 
 #second-p {
-  font-size: 1.8vw;
+  color: rgb(78, 77, 77);
+  font-size: 1.6vw;
+}
+
+#demo {
+  color: rgb(78, 77, 77);
+  font-size: 1.5vw;
 }
 
 #available {

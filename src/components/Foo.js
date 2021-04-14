@@ -1,5 +1,5 @@
 import React from "react";
-import ProjectOne from "./Works/ProjectOne"
+import ProjectOne from "./Works//Projects/ProjectOne"
 import { BrowserRouter, Route } from "react-router-dom";
 
 function Foo() {
