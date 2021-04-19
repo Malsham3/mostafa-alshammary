@@ -1,5 +1,4 @@
 import React from "react";
-import './index.scss'
 import SiteName from "../Header/SiteName";
 import NavSection from "../Header/NavSection";
 
