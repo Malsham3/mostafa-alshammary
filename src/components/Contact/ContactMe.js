@@ -6,12 +6,12 @@ function ContactMe() {
     <div id="bio">
       <h2 id="contact-me">Contact</h2>
       <div id="contact-info">
-        <h4 id="contact">By Phone: (623) 363 - 5283</h4>
-        <h4 id="contact">
+        <p id="contact">By Phone: (623) 363 - 5283</p>
+        <p id="contact">
           {" "}
           By Email:{" "}
           <a href="mailto:m.alsham627@gmail.com">m.alsham627@gmail.com</a>
-        </h4>
+        </p>
       </div>
 
       <SocialMedia />

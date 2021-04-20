@@ -1,11 +1,29 @@
 #root {
   background-image: url("./utils/images/personalportfoliobg2.jpg");
-  height: 100%;
+  height: 100vh;
   overflow-x: hidden;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
 }
+
+//--------------------------START HOME PAGE--------------------------------//
+#home-content {
+  // background-color: whitesmoke;
+  // box-shadow: 6px 6px 1px 1px black;
+  //top right bottom left
+  margin: 4vh 8% 4vh 8%;
+  padding: 4vh 5vw 3vh 5vw;
+}
+
+#welcome-message {
+  text-align: center;
+  font-size: 9vw;
+  font-style: italic;
+  color: white;
+
+}
+//--------------------------END HOME PAGE--------------------------------//
 
 #findme {
   font-size: 200px;
@@ -17,24 +35,20 @@ h2 {
   padding-bottom: 1vw;
 }
 
-//mid content
-#mid-content {
-  margin: 4vh 8% 3% 8%;
-}
-
 // bio section
-#bio {
-  background-color: whitesmoke;
-  // box-shadow: 6px 6px 1px 1px black;
-  //top right bottom left
-  padding: 4% 9% 2% 6%;
-}
+// #bio {
+//   // background-color: whitesmoke;
+//   // box-shadow: 6px 6px 1px 1px black;
+//   //top right bottom left
+//   // padding: 4% 9% 2% 6%;
+// }
 
 .project-name {
   font-size: 1.6vw;
 }
 
-#first-p, #second-p {
+#first-p,
+#second-p {
   font-size: 1.6vw;
   padding-left: 1vw;
 }
@@ -52,50 +66,50 @@ h2 {
   text-align: center;
 }
 
-#contact-me{
+#contact-me {
   font-size: 2.8vw;
 }
 
-#contact-info{
+#contact-info {
   padding-left: 1vw;
 }
 
-
+#contact {
+  font-size: 1.6vw;
+}
 
 //--------------------------START WORKS PAGE--------------------------------//
 #works-ul {
   list-style: circle;
-background-color: whitesmoke;
-// box-shadow: 6px 6px 1px 1px black;
-//top right bottom left
-padding: 4% 9% 4% 6%;
+  background-color: whitesmoke;
+  // box-shadow: 6px 6px 1px 1px black;
+  //top right bottom left
+  padding: 4% 9% 4% 6%;
 }
 
-#project-item{
-  padding: 1vh 0 1vh 0
+#project-item {
+  padding: 1vh 0 1vh 0;
 }
 
 #mid-content {
-background-color: whitesmoke;
-box-shadow: 6px 6px 1px 1px black;
-//top right bottom left
-margin-top: 4vh;
-margin-bottom: 4vh;
-margin-left: 8%;
-padding: 4vh 5vw 3vh 5vw;
+  background-color: whitesmoke;
+  box-shadow: 6px 6px 1px 1px black;
+  //top right bottom left
+  margin: 4vh 8% 4vh 8%;
+  padding: 4vh 5vw 3vh 5vw;
 }
 
 #project-desc {
-padding-top: 2vw;
-padding-left: 1.4vw;
+  padding-top: 2vw;
+  padding-left: 1.4vw;
 }
 
 #project-image {
-width: 100%;
-height: auto;
+  width: 100%;
+  height: auto;
 }
 
 #project-title {
-text-decoration: underline;
+  text-decoration: underline;
 }
 //--------------------------END WORKS PAGE--------------------------------//

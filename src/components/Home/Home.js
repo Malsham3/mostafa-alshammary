@@ -1,15 +1,18 @@
 import React from "react";
-import SiteName from "../Header/SiteName";
-import NavSection from "../Header/NavSection";
 
 function Home() {
   return (
-    <div id="main">
-      <div id="content">
-        <SiteName />
-        <NavSection />
+    <>
+      {/* <p id="welcome-message">Welcome</p> */}
+
+      <div class="deconstructed">
+        Welcome.
+        <div>Welcome.</div>
+        <div>Welcome.</div>
+        <div>Welcome.</div>
+        <div>Welcome.</div>
       </div>
-    </div>
+    </>
   );
 }
 
