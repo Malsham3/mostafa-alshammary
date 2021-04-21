@@ -96,6 +96,11 @@ h2 {
   padding-left: 1.4vw;
 }
 
+#image-row {
+  display: flex;
+  align-items: flex-start;
+}
+
 #project-image {
   display: block;
   max-width: 100%;
