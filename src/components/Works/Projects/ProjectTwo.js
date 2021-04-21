@@ -21,7 +21,6 @@ function ProjectTwo() {
 
         <Row id="image-row" className="justify-content-center">
           <p id="first-p">DEMO time</p>
-          {/* <img id="project-image" src={ProjectGif} alt="ProjectTwo" /> */}
           <Image id="project-image" src={ProjectGif} alt="ProjectTwo"/>
         </Row>
 

@@ -1,5 +1,5 @@
 import React from "react";
-import { Row, Link } from "react-bootstrap";
+import { Row, Image } from "react-bootstrap";
 import Header from "../../Header/Header";
 import ProjectGif from "../../../utils/gifs/budget-tracker.gif";
 
@@ -17,9 +17,9 @@ function ProjectThree() {
           </p>
         </Row>
 
-        <Row className="justify-content-center">
+        <Row id="image-row" className="justify-content-center">
           <p id="first-p">DEMO time</p>
-          <img id="project-image" src={ProjectGif} alt="ProjectThree" />
+          <Image id="project-image" src={ProjectGif} alt="ProjectThree"/>
         </Row>
 
         <Row id="project-desc">
