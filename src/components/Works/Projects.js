@@ -11,7 +11,7 @@ const projects = [
   },
   {
     id: "2",
-    projectname: "Office Space",
+    projectname: "Employee Directory",
     github: "",
     deployed: "",
   },
