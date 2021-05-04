@@ -3,5 +3,5 @@
 
 ## Full Stack Web Developer
 
-- [Portfolio] (https://mostafaalshammary.netlify.app) 
-- [LinkedIn] (https://www.linkedin.com/in/mostafa-alshammary)
+- [Portfolio](https://mostafaalshammary.netlify.app) 
+- [LinkedIn](https://www.linkedin.com/in/mostafa-alshammary)
