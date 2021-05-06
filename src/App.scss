@@ -31,19 +31,11 @@
 
 h2 {
   font-size: 2.8vw;
-  text-decoration: underline;
+  // text-decoration: underline;
   padding-bottom: 1vw;
 }
 
-.project-name {
-  font-size: 1.6vw;
-}
 
-#first-p,
-#second-p {
-  font-size: 1.6vw;
-  padding-left: 1vw;
-}
 
 #demo {
   color: rgb(226, 0, 0);
@@ -56,10 +48,6 @@ h2 {
   text-decoration: underline;
   padding-top: 1vw;
   text-align: center;
-}
-
-#contact-me {
-  font-size: 2.8vw;
 }
 
 #contact-info {
@@ -99,6 +87,10 @@ h2 {
 #image-row {
   display: flex;
   align-items: flex-start;
+}
+
+.project-name {
+  font-size: 1.6vw;
 }
 
 #project-image {

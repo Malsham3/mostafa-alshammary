@@ -1,5 +1,4 @@
 import React from "react";
-import { BrowserRouter, Route } from "react-router-dom";
 import Project from "./Project";
 
 const projects = [
@@ -32,8 +31,7 @@ const projects = [
 function Projects() {
   return (
     <div id="works-ul">
-      <h2 id="projects-title">Works</h2>
-
+      <h2><a id="h2-tags" href="#" class="underlined underlined--offset">Works</a></h2>
       {projects.map(({ id, projectname, github, deployed }) => (
         <Project
           id={id}

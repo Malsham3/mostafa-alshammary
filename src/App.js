@@ -5,7 +5,6 @@ import HomePage from "./pages/HomePage";
 import AboutPage from "./pages/AboutPage";
 import ContactPage from "./pages/ContactPage";
 import WorksPage from "./pages/WorksPage";
-import Foo from './components/Foo'
 import ProjectRoutes from './components/Works/ProjectRoutes'
 
 // add all the browser router stuff with links
